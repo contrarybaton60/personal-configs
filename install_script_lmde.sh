@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Personal install script for Linux Mint Debian Edition.
+# Personal install script for Linux Mint Debian Edition 6 "Faye".
+
+# Note that this script requires the git package to be installed on your system.
 
 # Update System
 sudo apt update && sudo apt upgrade
