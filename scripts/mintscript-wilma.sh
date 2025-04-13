@@ -13,16 +13,18 @@ sudo apt remove mintchat yaru-theme-icon papirus-icon-theme thunderbird
 sudo apt update && sudo apt upgrade
 
 # Install packages through apt
-sudo apt install bibletime qt5ct steam-installer stellarium git simplescreenrecorder supertuxkart woof-doom gimp
+sudo apt install bibletime qt5ct git virt-manager
 
-# Install packages through flatpak
-flatpak install com.vscodium.codium org.prismlauncher.PrismLauncher md.obsidian.Obsidian net.lutris.Lutris net.minetest.Minetest dev.vencord.Vesktop com.simutrans.Simutrans
-
-# flatpak permissions
-sudo flatpak override --filesystem=xdg-data/themes
-sudo flatpak override --filesystem=$HOME/.themes
-sudo flatpak override --filesystem=$HOME/.icons
-sudo flatpak override --filesystem=$HOME
+# Mint/Cinnamon stuff because idk how to use gsettings or dconf
+cinnamon-settings themes
+cinnamon-settings fonts
+cinnamon-settings screensaver
+cinnamon-settings calendar
+cinnamon-settings user
+cinnamon-settings gestures
+cinnamon-settings applets
+cinnamon-settings panels
+cinnamon-settings desktop
 
 # Backports Mint-Y icons to Mint-L, credit to Harry W. Haines III aka "Acheron"
 
