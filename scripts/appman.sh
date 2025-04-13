@@ -7,8 +7,11 @@ chmod a+x ./AM-INSTALLER
 
 # other commands I use for personal stuff
 ## am extra zyachel/luanti-appimage luanti
-## am install vscodium lutris librewolf greenlight steam obsidian prismlauncher tenacity gimp-git stellarium simplescreenrecorder supertux supertuxkart
+## am install vscodium lutris librewolf steam obsidian prismlauncher audacity gimp stellarium simplescreenrecorder wine
+## am download supertux supertuxkart 
 ## am icons --all
 
 # extend functionality with Junest, but why not just use distrobox?
 ## am install junest
+
+##echo 'alias am="appman $@"' >> .bashrc
