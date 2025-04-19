@@ -7,8 +7,9 @@ chmod a+x ./AM-INSTALLER
 
 # other commands I use for personal stuff
 ## am extra zyachel/luanti-appimage luanti
-## am install vscodium lutris librewolf steam obsidian prismlauncher audacity gimp stellarium simplescreenrecorder wine
-## am download supertux supertuxkart woof-doom
+## am extra bmsuseluda/ares-emu-appimage ares
+## am install vscodium lutris librewolf steam obsidian prismlauncher audacity gimp stellarium wine-stable
+## am download supertux supertuxkart woof-doom retroarch
 ## am icons --all
 
 # extend functionality with Junest, but why not just use distrobox?
