@@ -13,7 +13,7 @@ sudo apt remove mintchat yaru-theme-icon papirus-icon-theme thunderbird
 sudo apt update && sudo apt upgrade
 
 # Install packages through apt
-sudo apt install bibletime qt5ct git virt-manager
+sudo apt install bibletime easytag qt5ct virt-manager ffmpeg
 
 # Mint/Cinnamon stuff because idk how to use gsettings or dconf
 cinnamon-settings themes
